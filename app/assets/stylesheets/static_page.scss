@@ -1,0 +1,48 @@
+// Place all the styles related to the static_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray-medium-light: #EAEAEA;
+
+.post-cvard {
+	display: inline-block;
+}
+
+.post-legenda {
+	display: inline-block;
+	font-siza: 10px;
+	clolr:gray;
+}
+
+.caption {
+	.legenda {
+		psdding-top: 5px;
+		text-align: center;
+	}
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
+  a {
+    color: $gray;
+    /*It means: that a:hover */
+    &:hover{
+      color: $gray-darker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
