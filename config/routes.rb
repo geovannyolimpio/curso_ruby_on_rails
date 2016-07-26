@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   root 'static_page#index'
 
   get 'sobre', to: 'static_page#sobre'
