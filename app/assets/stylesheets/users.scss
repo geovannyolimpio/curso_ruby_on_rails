@@ -1,3 +1,21 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.user-info {
+  ul {
+    list-style-type: none;
+  }
+}
+
+.username {
+  font-size: 20px;
+  color: grey;
+}
+
+.user-row {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #d2d2d2;
+  padding:10px;
+}
