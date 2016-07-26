@@ -1,19 +1,11 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
+  <div class="col-xs-12 col-sm-12 col-md-4">
+    <%= render @user %>
+  </div>
 
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
+  <div class="col-xs-12 col-sm-12 col-md-8">
+    <h2>Fotos Postadas por <%= @user.name %></h2>
+  </div>
 
-<p>
-  <strong>Password digest:</strong>
-  <%= @user.password_digest %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+</div>
